@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.boxintro{
+    text-align: center;
+   font-size: 80px;
+   font-weight: bold;
+
+}
+
+.changing_word {
+	
+	left:20;
+    margin-top: 20px; 
+    overflow: hidden;
+    font-size: 45px; 
+    height: 1em;
+    font-weight: bold;
+     color: white;
+}
+.changing_word span {
+     position: absolute;
+	 width: 100%;
+     opacity: 0;
+     animation: fade 18s infinite;
+     
+}
+ @keyframes fade {
+           0%, 10% { opacity: 1;   }
+            12%, 85% { opacity: 0;}
+            
+        }
+
+       .changing_word span:nth-child(1) { animation-delay: 0s; }
+		.changing_word span:nth-child(2) { animation-delay: 3s; }
+		.changing_word span:nth-child(3) { animation-delay: 6s;  }
+		.changing_word span:nth-child(4) { animation-delay: 9s; }
+        .changing_word span:nth-child(5) { animation-delay: 12s; }
+        .changing_word span:nth-child(6) { animation-delay: 15s; }
+
+
+.boxbody{
+    position: absolute;
+    top:300px;
+}        
+.boxprojects{
+    position: absolute;
+    left:900px;
+    top:20px;
+
+
+
+}
+.picture{
+    left:20px;
+}
+.boxline{
+    border: ridge;
+}
+
+.boxachievements{
+    position: absolute;
+    left:1200px;
+    top:20px;
+}
+.boxcerificates{
+    position: absolute;
+    left:600px;
+    top:20px;
+    
+
+}
+.end{
+    position: absolute;
+    
+    top:450px;
+    
+
+}
